@@ -1,13 +1,14 @@
 package echoSwagger
 
 import (
-	"golang.org/x/net/webdav"
 	"html/template"
 	"net/http"
 	"regexp"
 
-	"github.com/labstack/echo"
-	"github.com/swaggo/files"
+	"github.com/labstack/echo/v4"
+	"golang.org/x/net/webdav"
+
+	swaggerFiles "github.com/swaggo/files"
 	"github.com/swaggo/swag"
 )
 
